@@ -23,23 +23,27 @@
 
 "use strict";
 
-const numberOfFilms = +prompt("сколько фильмов ты смотрел?", "");
-console.log(numberOfFilms);
+// Lern 12
 
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {}, // - в это свойство поместить пустой объект
-  actors: {}, // - тоже поместить пустой объект
-  genres: [], // - сюда поместить пустой массив
-  privat: false, // - в это свойство поместить boolean(логическое) значение false
-};
+// const numberOfFilms = +prompt("сколько фильмов ты смотрел?", "");
+// console.log(numberOfFilms);
 
-const a = prompt("Один из последних просмотренных фильмов?", ""),
-  b = prompt("На сколько оцените его?", ""),
-  c = prompt("Один из последних просмотренных фильмов?", ""),
-  d = prompt("На сколько оцените его?", "");
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {}, // - в это свойство поместить пустой объект
+//   actors: {}, // - тоже поместить пустой объект
+//   genres: [], // - сюда поместить пустой массив
+//   privat: false, // - в это свойство поместить boolean(логическое) значение false
+// };
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// const a = prompt("Один из последних просмотренных фильмов?", ""),
+//   b = prompt("На сколько оцените его?", ""),
+//   c = prompt("Один из последних просмотренных фильмов?", ""),
+//   d = prompt("На сколько оцените его?", "");
 
-console.log(personalMovieDB);
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
+
+/*  ====== Learn 13 ======= */
